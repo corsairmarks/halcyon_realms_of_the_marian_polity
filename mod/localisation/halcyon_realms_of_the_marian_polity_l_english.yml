@@ -3,10 +3,6 @@
  EMPIRE_DESIGN_marian_polity_desc: "empty"
 #  START_hrmp_sector_name: "start"
 #  START_hrmp_initial_governor_name: "first gov"
- RT_AGRONOMIST: "Serene Agronomist"
- RT_AGRONOMIST_FEMALE: "Sublime Agronomist"
- RT_HEIR_DESIGNATE: "Heir-Designate"
- RT_HEIR_DESIGNATE_FEMALE: "Heiress-Designate"
  # I'd rather load the syncretic species name dynamically, but there doesn't appear to be a way to get it in the start screen or to set an event_target.
  START_SCREEN_MARIAN_POLITY: "todo custom start"
  marian_polity_starting_system_initializer_NAME: "Semadjo"
