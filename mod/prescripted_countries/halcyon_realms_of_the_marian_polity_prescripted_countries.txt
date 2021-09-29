@@ -1,0 +1,71 @@
+marian_polity = {
+	ship_prefix = PRESCRIPTED_hrmp_ship_prefix
+	species = {
+		class = MOL
+		portrait = mol18
+		name = PRESCRIPTED_species_name_marian_polity
+		plural = PRESCRIPTED_species_plural_marian_polity
+		adjective = PRESCRIPTED_species_adjective_marian_polity
+		name_list = MOL3
+		trait = trait_traditional
+		trait = trait_conservational
+		trait = trait_agrarian
+		trait = trait_sedentary
+		trait = trait_solitary
+	}
+	name = marian_polity
+	adjective = PRESCRIPTED_adjective_marian_polity
+	authority = auth_imperial
+	government = gov_irenic_monarchy
+	advisor_voice_type = l_pacifist
+	planet_name = PRESCRIPTED_hrmp_planet_name
+	planet_class = pc_ocean
+	system_name = PRESCRIPTED_hrmp_system_name
+	initializer = ""
+	graphical_culture = molluscoid_01
+	city_graphical_culture = molluscoid_01
+	empire_flag = {
+		icon = {
+			category = "blocky"
+			file = "flag_blocky_8.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "new_dawn.dds"
+		}
+		colors = {
+			"pink"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = male
+		name = PRESCRIPTED_ruler_name_marian_polity
+		portrait = mol18
+		texture = 4
+		hair = 0
+		clothes = 0
+		ruler_title = RT_AGRONOMIST
+		heir_title = RT_HEIR_DESIGNATE
+		ruler_title_female = RT_AGRONOMIST_FEMALE
+		heir_title_female = RT_HEIR_DESIGNATE_FEMALE
+		leader_class = ruler
+		trait = trait_ruler_fertility_preacher
+		trait = trait_ruler_architectural_sense
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	room = personality_decadent_hierarchy_room
+	spawn_enabled = yes
+	ethic = ethic_authoritarian
+	ethic = ethic_xenophobe
+	ethic = ethic_pacifist
+	civics = {
+		civic_agrarian_idyll
+		civic_inwards_perfection
+	}
+	origin = origin_default
+	flags = { is_halcyon_realms_of_the_marian_polity }
+}

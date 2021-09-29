@@ -1,0 +1,14 @@
+namespace = marian_polity
+
+# flag mod as active
+event = {
+	id = marian_polity.13
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_global_flag = marian_polity_installed }
+	}
+	immediate = {
+		set_global_flag = marian_polity_installed
+	}
+}

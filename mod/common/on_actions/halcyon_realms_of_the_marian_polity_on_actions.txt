@@ -1,0 +1,20 @@
+# fired when the game starts
+on_game_start = {
+	events = {
+		marian_polity.13 # flag mod as installed
+	}
+}
+
+# fired when the game starts
+# THIS = country
+on_game_start_country = {
+	events = {
+	}
+}
+
+# fired when loading a single-player game
+on_single_player_save_game_load = {
+	events = {
+		marian_polity.13 # flag mod as installed
+	}
+}
