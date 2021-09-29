@@ -16,7 +16,7 @@ Notes
 
 ## Source Code
 
-Hosted on [GitHub]()
+Hosted on [GitHub](https://github.com/corsairmarks/halcyon_realms_of_the_marian_polity)
 
 ### Development Notes
 
