@@ -13,6 +13,7 @@ event = {
 	}
 }
 
+# triggered by on_game_start_country
 country_event = {
 	id = marian_polity.1
 	hide_window = yes
@@ -24,6 +25,27 @@ country_event = {
 		capital_scope = {
 			add_modifier = {
 				modifier = mineral_poor
+			}
+		}
+	}
+}
+
+# triggered by empire_init_capital_planet, but before the built-in events
+planet_event = {
+	id = marian_polity.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		owner = { has_origin = origin_early_catalytic_processing }
+	}
+	immediate = {
+		owner = {
+			switch = {
+				trigger = has_authority
+				auth_hive_mind = { force_add_civic = civic_hive_catalytic_processing }
+				auth_machine_intelligence = { force_add_civic = civic_machine_catalytic_processing }
+				auth_corporate = { force_add_civic = civic_corporate_catalytic_processing }
+				defaut = { force_add_civic = civic_catalytic_processing }
 			}
 		}
 	}
