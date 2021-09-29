@@ -81,3 +81,56 @@ country_event = {
 		}
 	}
 }
+
+# triggered by on_post_government_changed
+country_event = {
+	id = marian_polity.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_origin = origin_early_catalytic_processing
+	}
+	immediate = {
+		if = {
+			limit = { is_catalytic_empire = yes }
+			if = {
+				limit = {
+					NOR = {
+						has_technology = tech_catalytic_processing_efficiency_1
+						has_modifier = low_efficiency_catalytic_processing
+					}
+				}
+				add_modifier = { modifier = low_efficiency_catalytic_processing }
+			}
+			else_if = {
+				limit = {
+					has_technology = tech_catalytic_processing_efficiency_1
+					NOT = { has_modifier = moderate_efficiency_catalytic_processing }
+				}
+				add_modifier = { modifier = moderate_efficiency_catalytic_processing }
+			}
+			# efficiency_2 has no country modifier
+			else_if = {
+				limit = {
+					has_technology = tech_catalytic_processing_efficiency_3
+					NOT = { has_modifier = high_efficiency_catalytic_processing }
+				}
+				add_modifier = { modifier = high_efficiency_catalytic_processing }
+			}
+		}
+		else = {
+			if = {
+				limit = { has_modifier = low_efficiency_catalytic_processing }
+				remove_modifier = low_efficiency_catalytic_processing
+			}
+			if = {
+				limit = { has_modifier = moderate_efficiency_catalytic_processing }
+				remove_modifier = moderate_efficiency_catalytic_processing
+			}
+			if = {
+				limit = { has_modifier = high_efficiency_catalytic_processing }
+				remove_modifier = high_efficiency_catalytic_processing
+			}
+		}
+	}
+}

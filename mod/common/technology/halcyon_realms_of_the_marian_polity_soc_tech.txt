@@ -12,7 +12,10 @@ tech_catalytic_processing_efficiency_1 = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { has_origin = origin_early_catalytic_processing }
+			NAND = {
+				has_origin = origin_early_catalytic_processing
+				is_catalytic_empire = yes
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -47,7 +50,10 @@ tech_catalytic_processing_efficiency_2 = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { has_origin = origin_early_catalytic_processing }
+			NAND = {
+				has_origin = origin_early_catalytic_processing
+				is_catalytic_empire = yes
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -82,7 +88,10 @@ tech_catalytic_processing_efficiency_3 = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { has_origin = origin_early_catalytic_processing }
+			NAND = {
+				has_origin = origin_early_catalytic_processing
+				is_catalytic_empire = yes
+			}
 		}
 		modifier = {
 			factor = 1.25
