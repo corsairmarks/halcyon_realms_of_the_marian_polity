@@ -9,6 +9,7 @@ on_game_start = {
 # THIS = country
 on_game_start_country = {
 	events = {
+		marian_polity.1
 	}
 }
 

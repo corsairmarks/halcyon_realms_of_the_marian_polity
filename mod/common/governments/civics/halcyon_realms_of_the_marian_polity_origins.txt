@@ -1,45 +1,26 @@
 origin_early_catalytic_processing = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_life_seeded.dds"
+	icon = gfx/interface/icons/origins/origins_life_seeded.dds
 	picture = GFX_origin_origin_early_catalytic_processing_b
-
 	playable = { has_plantoids = yes }
 	ai_playable = { has_plantoids = yes }
-
 	possible = {
 		civics = {
 			NOR = {
-				# text = TODO # can't take the civic if your origin will give it to you
+				text = civic_tooltip_not_catalytic_processing_tooltip
 				value = civic_catalytic_processing
 				value = civic_corporate_catalytic_processing
 				value = civic_hive_catalytic_processing
 				value = civic_machine_catalytic_processing
 			}
 			NOT = {
-				value = civic_technocracy
-			}
-			NOT = {
-				value = civic_corporate_dominion
-			}
-			NOT = { value = civic_mining_guilds }
-			NOR = {
-				value = civic_fanatic_purifiers
-				value = civic_hive_devouring_swarm
-				value = civic_fanatic_purifiers
-				value = civic_barbaric_despoilers
-				value = civic_death_cult
-				value = civic_corporate_death_cult
-				value = civic_reanimated_armies
-				value = civic_pleasure_seekers
-				value = civic_corporate_hedonism
+				text = civic_tooltip_not_mining_guilds_tooltip
+				value = civic_mining_guilds
 			}
 		}
 	}
-
-	description = "origin_tooltip_mechanists_effects"
-
+	description = origin_early_catalytic_processing_effects
 	advanced_start = no
-
 	random_weight = {
 		base = 5
 	}

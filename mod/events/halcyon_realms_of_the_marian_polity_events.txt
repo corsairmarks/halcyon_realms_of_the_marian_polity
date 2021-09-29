@@ -12,3 +12,19 @@ event = {
 		set_global_flag = marian_polity_installed
 	}
 }
+
+country_event = {
+	id = marian_polity.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_origin = origin_early_catalytic_processing
+	}
+	immediate = {
+		capital_scope = {
+			add_modifier = {
+				modifier = mineral_poor
+			}
+		}
+	}
+}
