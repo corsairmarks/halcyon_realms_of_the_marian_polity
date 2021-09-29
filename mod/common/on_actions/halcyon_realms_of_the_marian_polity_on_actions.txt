@@ -19,3 +19,11 @@ on_single_player_save_game_load = {
 		marian_polity.13 # flag mod as installed
 	}
 }
+
+# fired when a country has increased the level of a tech, use last_increased_tech trigger to check tech and level
+# THIS = country
+on_tech_increased = {
+	events = {
+		marian_polity.3
+	}
+}

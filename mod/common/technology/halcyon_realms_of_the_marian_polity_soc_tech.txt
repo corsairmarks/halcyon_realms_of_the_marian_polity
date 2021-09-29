@@ -1,0 +1,104 @@
+tech_catalytic_processing_efficiency_1 = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { biology }
+	prerequisites = { tech_industrial_farming }
+	weight = @tier1weight1
+	modifier = {
+		description = tech_catalytic_processing_efficiency_1_effect
+	}
+	weight_modifier = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { has_origin = origin_early_catalytic_processing }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+	}
+}
+
+tech_catalytic_processing_efficiency_2 = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { biology }
+	prerequisites = { tech_catalytic_processing_efficiency_1 }
+	weight = @tier2weight1
+	modifier = {
+		description = tech_catalytic_processing_efficiency_2_effect
+	}
+	weight_modifier = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { has_origin = origin_early_catalytic_processing }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+	}
+}
+
+tech_catalytic_processing_efficiency_3 = {
+	cost = @tier3cost2
+	area = society
+	tier = 3
+	category = { biology }
+	prerequisites = { tech_catalytic_processing_efficiency_2 }
+	weight = @tier3weight2
+	modifier = {
+		description = tech_catalytic_processing_efficiency_3_effect
+	}
+	weight_modifier = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { has_origin = origin_early_catalytic_processing }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+	}
+}

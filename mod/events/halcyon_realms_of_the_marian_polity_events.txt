@@ -22,6 +22,7 @@ country_event = {
 		has_origin = origin_early_catalytic_processing
 	}
 	immediate = {
+		add_modifier = { modifier = low_efficiency_catalytic_processing }
 		capital_scope = {
 			add_modifier = {
 				modifier = mineral_poor
@@ -46,6 +47,36 @@ planet_event = {
 				auth_machine_intelligence = { force_add_civic = civic_machine_catalytic_processing }
 				auth_corporate = { force_add_civic = civic_corporate_catalytic_processing }
 				defaut = { force_add_civic = civic_catalytic_processing }
+			}
+		}
+	}
+}
+
+# triggered by on_tech_increased
+country_event = {
+	id = marian_polity.3
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_origin = origin_early_catalytic_processing
+		OR = {
+			last_increased_tech = tech_catalytic_processing_efficiency_1
+			last_increased_tech = tech_catalytic_processing_efficiency_2
+			last_increased_tech = tech_catalytic_processing_efficiency_3
+		}
+	}
+	immediate = {
+		switch = {
+			trigger = last_increased_tech
+			tech_catalytic_processing_efficiency_1 = {
+				remove_modifier = low_efficiency_catalytic_processing
+				add_modifier = { modifier = moderate_efficiency_catalytic_processing }
+			}
+			tech_catalytic_processing_efficiency_2 = {
+				remove_modifier = moderate_efficiency_catalytic_processing
+			}
+			tech_catalytic_processing_efficiency_3 = {
+				add_modifier = { modifier = high_efficiency_catalytic_processing }
 			}
 		}
 	}
