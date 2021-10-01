@@ -27,11 +27,3 @@ on_tech_increased = {
 		marian_polity.3
 	}
 }
-
-# fired just as country is changing its government, after the new one is applied
-# THIS = country
-on_post_government_changed = {
-	events = {
-		marian_polity.4
-	}
-}

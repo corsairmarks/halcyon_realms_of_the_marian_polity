@@ -19,7 +19,7 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		has_origin = origin_early_catalytic_processing
+		is_early_catalytic_empire = yes
 	}
 	immediate = {
 		add_modifier = { modifier = low_efficiency_catalytic_processing }
@@ -31,7 +31,7 @@ country_event = {
 	}
 }
 
-# triggered by empire_init_capital_planet, but before the built-in events
+# triggered by empire_init_capital_planet
 planet_event = {
 	id = marian_polity.2
 	hide_window = yes
@@ -43,10 +43,10 @@ planet_event = {
 		owner = {
 			switch = {
 				trigger = has_authority
-				auth_hive_mind = { force_add_civic = civic_hive_catalytic_processing }
-				auth_machine_intelligence = { force_add_civic = civic_machine_catalytic_processing }
-				auth_corporate = { force_add_civic = civic_corporate_catalytic_processing }
-				defaut = { force_add_civic = civic_catalytic_processing }
+				auth_corporate = { force_add_civic = civic_corporate_catalytic_processing_alternate }
+				auth_hive_mind = { force_add_civic = civic_hive_catalytic_processing_alternate }
+				auth_machine_intelligence = { force_add_civic = civic_machine_catalytic_processing_alternate }
+				default = { force_add_civic = civic_catalytic_processing_alternate }
 			}
 		}
 	}
@@ -58,7 +58,7 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		has_origin = origin_early_catalytic_processing
+		is_early_catalytic_empire = yes
 		OR = {
 			last_increased_tech = tech_catalytic_processing_efficiency_1
 			last_increased_tech = tech_catalytic_processing_efficiency_2
@@ -66,71 +66,18 @@ country_event = {
 		}
 	}
 	immediate = {
-		switch = {
-			trigger = last_increased_tech
-			tech_catalytic_processing_efficiency_1 = {
-				remove_modifier = low_efficiency_catalytic_processing
-				add_modifier = { modifier = moderate_efficiency_catalytic_processing }
-			}
-			tech_catalytic_processing_efficiency_2 = {
-				remove_modifier = moderate_efficiency_catalytic_processing
-			}
-			tech_catalytic_processing_efficiency_3 = {
-				add_modifier = { modifier = high_efficiency_catalytic_processing }
-			}
-		}
-	}
-}
-
-# triggered by on_post_government_changed
-country_event = {
-	id = marian_polity.4
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		has_origin = origin_early_catalytic_processing
-	}
-	immediate = {
 		if = {
-			limit = { is_catalytic_empire = yes }
-			if = {
-				limit = {
-					NOR = {
-						has_technology = tech_catalytic_processing_efficiency_1
-						has_modifier = low_efficiency_catalytic_processing
-					}
-				}
-				add_modifier = { modifier = low_efficiency_catalytic_processing }
-			}
-			else_if = {
-				limit = {
-					has_technology = tech_catalytic_processing_efficiency_1
-					NOT = { has_modifier = moderate_efficiency_catalytic_processing }
-				}
-				add_modifier = { modifier = moderate_efficiency_catalytic_processing }
-			}
-			# efficiency_2 has no country modifier
-			else_if = {
-				limit = {
-					has_technology = tech_catalytic_processing_efficiency_3
-					NOT = { has_modifier = high_efficiency_catalytic_processing }
-				}
-				add_modifier = { modifier = high_efficiency_catalytic_processing }
-			}
+			limit = { last_increased_tech = tech_catalytic_processing_efficiency_1 }
+			remove_modifier = low_efficiency_catalytic_processing
+			add_modifier = { modifier = moderate_efficiency_catalytic_processing }
 		}
-		else = {
-			if = {
-				limit = { has_modifier = low_efficiency_catalytic_processing }
-				remove_modifier = low_efficiency_catalytic_processing
-			}
-			if = {
-				limit = { has_modifier = moderate_efficiency_catalytic_processing }
-				remove_modifier = moderate_efficiency_catalytic_processing
-			}
-			if = {
-				limit = { has_modifier = high_efficiency_catalytic_processing }
-				remove_modifier = high_efficiency_catalytic_processing
-			}
+		else_if = {
+			limit = { last_increased_tech = tech_catalytic_processing_efficiency_2 }
+			remove_modifier = moderate_efficiency_catalytic_processing
+		}
+		else_if = {
+			limit = { last_increased_tech = tech_catalytic_processing_efficiency_3 }
+			add_modifier = { modifier = high_efficiency_catalytic_processing }
 		}
 	}
 }

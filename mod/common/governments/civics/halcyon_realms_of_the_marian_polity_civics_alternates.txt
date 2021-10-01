@@ -1,0 +1,96 @@
+civic_catalytic_processing_alternate = {
+	icon = gfx/interface/icons/governments/civics/civic_catalytic_processing.dds
+	playable = { has_plantoids = yes }
+	ai_playable = { has_plantoids = yes }
+	modification = no
+	pickable_at_start = no
+	description = "civic_tooltip_catalytic_processing_effects"
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } } #Gestalts get their own versions
+		authority = { NOT = { value = auth_corporate } } #Megacorps get their own verion too
+	}
+	possible = {
+		origin = {
+			value = origin_early_catalytic_processing
+		}
+		civics = {
+			NOT = { value = civic_catalytic_processing }
+			value = civic_catalytic_processing_alternate
+		}
+	}
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+	random_weight = { base = 5 }
+}
+
+civic_corporate_catalytic_processing_alternate = {
+	icon = gfx/interface/icons/governments/civics/civic_corporate_catalytic_processing.dds
+	playable = { has_plantoids = yes }
+	ai_playable = { has_plantoids = yes }
+	modification = no
+	pickable_at_start = no
+	description = "civic_tooltip_catalytic_processing_corporate_effects"
+	potential = {
+		authority = { value = auth_corporate }
+	}
+	possible = {
+		origin = { value = origin_early_catalytic_processing }
+		civics = {
+			NOT = { value = civic_corporate_catalytic_processing }
+			value = civic_corporate_catalytic_processing_alternate
+		}
+	}
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+	random_weight = { base = 5 }
+}
+
+civic_hive_catalytic_processing_alternate = {
+	icon = gfx/interface/icons/governments/civics/civic_hive_catalytic_processing.dds
+	playable = { has_plantoids = yes }
+	ai_playable = { has_plantoids = yes }
+	modification = no
+	pickable_at_start = no
+	description = "civic_tooltip_hive_catalytic_processing_effects"
+	potential = {
+		authority = { value = auth_hive_mind }
+	}
+	possible = {
+		origin = {
+			value = origin_early_catalytic_processing
+		}
+		civics = {
+			NOT = { value = civic_hive_catalytic_processing }
+			value = civic_hive_catalytic_processing_alternate
+		}
+	}
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+	random_weight = { base = 5 }
+}
+
+civic_machine_catalytic_processing_alternate = {
+	icon = gfx/interface/icons/governments/civics/civic_machine_catalytic_processing.dds
+	playable = { has_plantoids = yes }
+	ai_playable = { has_plantoids = yes }
+	modification = no
+	pickable_at_start = no
+	description = "civic_tooltip_machine_catalytic_processing_effects"
+	potential = {
+		authority = { value = auth_machine_intelligence }
+	}
+	possible = {
+		origin = { value = origin_early_catalytic_processing }
+		civics = {
+			NOT = { value = civic_machine_catalytic_processing }
+			value = civic_machine_catalytic_processing_alternate
+		}
+	}
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+	random_weight = { base = 5 }
+}

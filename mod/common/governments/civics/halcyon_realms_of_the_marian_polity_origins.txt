@@ -17,6 +17,10 @@ origin_early_catalytic_processing = {
 				text = civic_tooltip_not_mining_guilds_tooltip
 				value = civic_mining_guilds
 			}
+			NOT = {
+				text = civic_tooltip_not_machine_rockbreakers_tooltip
+				value = civic_machine_rockbreakers
+			}
 		}
 	}
 	description = origin_early_catalytic_processing_effects

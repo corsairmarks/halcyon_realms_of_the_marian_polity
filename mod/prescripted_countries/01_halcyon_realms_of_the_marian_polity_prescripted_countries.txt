@@ -66,6 +66,6 @@ marian_polity = {
 		civic_agrarian_idyll
 		civic_inwards_perfection
 	}
-	origin = origin_default
+	origin = origin_early_catalytic_processing
 	flags = { is_halcyon_realms_of_the_marian_polity }
 }
