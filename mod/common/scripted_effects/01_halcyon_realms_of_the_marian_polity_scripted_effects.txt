@@ -1,0 +1,62 @@
+# THIS should be a leader
+# removes generic leader traits that can be randomly assigned
+hrmp_remove_generic_randomized_positive_traits = {
+	remove_trait = leader_trait_adaptable
+	remove_trait = leader_trait_resilient
+	remove_trait = leader_trait_eager # can't gain from level-up
+	remove_trait = leader_trait_flexible_programming # can't gain from level-up
+	remove_trait = leader_trait_newboot # can't gain from level-up
+}
+
+# THIS should be a leader
+# removes all governor-specific traits that can be randomly assigned
+hrmp_remove_governor_randomized_positive_traits = {
+	if = {
+		limit = { leader_class = governor }
+		remove_trait = leader_trait_iron_fist
+		remove_trait = leader_trait_army_veteran # can't gain from level-up
+		remove_trait = leader_trait_retired_fleet_officer # can't gain from level-up
+		remove_trait = leader_trait_architectural_interest
+		remove_trait = leader_trait_agrarian_upbringing # can't gain from level-up
+		remove_trait = leader_trait_intellectual
+		remove_trait = leader_trait_environmental_engineer
+		remove_trait = leader_trait_bureaucrat # can't gain from level-up
+		remove_trait = leader_trait_righteous
+		remove_trait = leader_trait_mindfulness # can't gain from level-up
+		remove_trait = leader_trait_amplifier # can't gain from level-up
+		remove_trait = leader_trait_warbot_tinkerer # can't gain from level-up
+		remove_trait = leader_trait_ai_aided_design # can't gain from level-up
+		remove_trait = leader_trait_bulldozer
+		remove_trait = leader_trait_analytical
+	}
+}
+
+# THIS should be a leader
+# removes all scientist-specific traits that can be randomly assigned
+hrmp_remove_scientist_randomized_positive_traits = {
+	if = {
+		limit = { leader_class = scientist }
+		remove_trait = leader_trait_meticulous
+		remove_trait = leader_trait_spark_of_genius
+		remove_trait = leader_trait_carefree
+		remove_trait = leader_trait_roamer
+		remove_trait = leader_trait_archaeologist_ancrel
+		remove_trait = leader_trait_archaeologist
+		remove_trait = leader_trait_maniacal
+		remove_trait = leader_trait_custom_AI_assistant
+		remove_trait = leader_trait_sapient_AI_assistant
+		remove_trait = leader_trait_expertise_materials
+		remove_trait = leader_trait_expertise_propulsion
+		remove_trait = leader_trait_expertise_voidcraft
+		remove_trait = leader_trait_expertise_industry
+		remove_trait = leader_trait_expertise_field_manipulation
+		remove_trait = leader_trait_expertise_particles
+		remove_trait = leader_trait_expertise_computing
+		remove_trait = leader_trait_expertise_new_worlds
+		remove_trait = leader_trait_expertise_statecraft
+		remove_trait = leader_trait_expertise_biology
+		remove_trait = leader_trait_expertise_military_theory
+		remove_trait = leader_trait_expertise_psionics
+		remove_trait = leader_trait_cataloger
+	}
+}

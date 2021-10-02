@@ -81,3 +81,44 @@ country_event = {
 		}
 	}
 }
+
+# triggered by on_game_start_country
+country_event = {
+	id = marian_polity.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_halcyon_realms_of_the_marian_polity
+	}
+	immediate = {
+		random_owned_leader = {
+			limit = {
+				leader_class = governor
+				NOT = { has_trait = leader_trait_agrarian_upbringing }
+			}
+			hrmp_remove_generic_randomized_positive_traits = yes
+			hrmp_remove_governor_randomized_positive_traits = yes
+			add_trait = leader_trait_agrarian_upbringing
+		}
+		random_owned_leader = {
+			limit = {
+				leader_class = scientist
+				is_researching_area = society
+				NOT = { has_trait = leader_trait_expertise_biology }
+			}
+			hrmp_remove_generic_randomized_positive_traits = yes
+			hrmp_remove_scientist_randomized_positive_traits = yes
+			add_trait = leader_trait_expertise_biology
+		}
+		random_owned_leader = {
+			limit = {
+				leader_class = scientist
+				is_researching_area = engineering
+				NOT = { has_trait = leader_trait_expertise_materials }
+			}
+			hrmp_remove_generic_randomized_positive_traits = yes
+			hrmp_remove_scientist_randomized_positive_traits = yes
+			add_trait = leader_trait_expertise_materials
+		}
+	}
+}
