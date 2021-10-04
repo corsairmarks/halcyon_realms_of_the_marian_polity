@@ -91,14 +91,16 @@ country_event = {
 		has_country_flag = is_halcyon_realms_of_the_marian_polity
 	}
 	immediate = {
-		random_owned_leader = {
-			limit = {
-				leader_class = governor
-				NOT = { has_trait = leader_trait_agrarian_upbringing }
+		capital_scope.sector = {
+			set_name = START_hrmp_sector_name
+			leader = {
+				if = {
+					limit = { NOT = { has_trait = leader_trait_agrarian_upbringing } }
+					hrmp_remove_generic_randomized_positive_traits = yes
+					hrmp_remove_governor_randomized_positive_traits = yes
+					add_trait = leader_trait_agrarian_upbringing
+				}
 			}
-			hrmp_remove_generic_randomized_positive_traits = yes
-			hrmp_remove_governor_randomized_positive_traits = yes
-			add_trait = leader_trait_agrarian_upbringing
 		}
 		random_owned_leader = {
 			limit = {
