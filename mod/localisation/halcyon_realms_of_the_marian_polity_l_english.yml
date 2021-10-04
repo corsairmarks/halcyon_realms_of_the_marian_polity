@@ -22,7 +22,7 @@
  tech_catalytic_processing_efficiency_2_desc: "Further applied bio-metallurgical research has resulted in vastly improved organic alloys. These new alloys offer similar properties to previous generations, but require significantly less mass to achieve the same tensile and impact strengths. Although catalytic conversion efficiency is similar to previous generations, we will see improved throughput due to less material being required for most applications."
  tech_catalytic_processing_efficiency_2_effect: "$tech_catalytic_processing_efficiency_1_effect$"
  tech_catalytic_processing_efficiency_3: "Folded Organic Alloys"
- tech_catalytic_processing_efficiency_3_desc: "Revolutionary molecular folding techniques have dramatically improved the input efficiency for organic alloy fabrication. Combined with incremental improvements in forging and alloying, our [GetAlloyProducerPlural] report throughput exceeding that of any known empire - regardless of whether they employ catalytic processing or metallurgy."
+ tech_catalytic_processing_efficiency_3_desc: "Revolutionary molecular folding techniques have dramatically improved the input efficiency for organic alloy fabrication. Combined with incremental improvements in forging and alloying, our $job_catalytic_technician_plural$/$job_catalytic_drone_plural$ report throughput exceeding that of any known empire - regardless of whether they employ catalytic processing or metallurgy."
  tech_catalytic_processing_efficiency_3_effect: "$tech_catalytic_processing_efficiency_1_effect$"
  mod_planet_metallurgists_food_upkeep_mult: "[GetAlloyProducer] $food$ $UPKEEP$"
  civic_catalytic_processing_alternate: "Early $civic_catalytic_processing$"
