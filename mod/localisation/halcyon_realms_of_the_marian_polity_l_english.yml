@@ -17,7 +17,7 @@
  high_efficiency_catalytic_processing: "$civic_catalytic_processing$ Efficiency: High"
  tech_catalytic_processing_efficiency_1: "Enhanced Organic Catalyst"
  tech_catalytic_processing_efficiency_1_desc: "Breakthroughs in organic chemistry have resulted in reduced biomass input to achieve the same yield via industrial $civic_catalytic_processing$."
- tech_catalytic_processing_efficiency_1_effect: "$mod_planet_metallurgists_food_upkeep_mult$: §G-25%§!."
+ tech_catalytic_processing_efficiency_1_effect: "$job_catalytic_technician_plural$/$job_catalytic_drone_plural$:\n  $food$ $UPKEEP$: §G-25%§!"
  tech_catalytic_processing_efficiency_2: "Organic Alloy Structural Bonding"
  tech_catalytic_processing_efficiency_2_desc: "Further applied bio-metallurgical research has resulted in vastly improved organic alloys. These new alloys offer similar properties to previous generations, but require significantly less mass to achieve the same tensile and impact strengths. Although catalytic conversion efficiency is similar to previous generations, we will see improved throughput due to less material being required for most applications."
  tech_catalytic_processing_efficiency_2_effect: "$tech_catalytic_processing_efficiency_1_effect$"
