@@ -1,4 +1,5 @@
 marian_polity = {
+	playable = has_marian_polity_prerequisites
 	ship_prefix = PRESCRIPTED_hrmp_ship_prefix
 	species = {
 		class = MOL

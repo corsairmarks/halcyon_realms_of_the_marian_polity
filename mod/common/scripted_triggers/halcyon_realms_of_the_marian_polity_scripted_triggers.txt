@@ -1,0 +1,4 @@
+has_marian_polity_prerequisites = {
+	has_leviathans = yes # mari: portrait
+	has_plantoids = yes # mari: origin
+}
