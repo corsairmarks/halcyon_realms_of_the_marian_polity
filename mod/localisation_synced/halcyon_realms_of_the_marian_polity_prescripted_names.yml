@@ -5,15 +5,13 @@
  PRESCRIPTED_species_name_marian_polity: "Mari"
  PRESCRIPTED_species_plural_marian_polity: "Mari"
  PRESCRIPTED_species_adjective_marian_polity: "Marian"
- # species_bio cannot load localisation, so this entry is superfluous for now.
- PRESCRIPTED_species_bio_marian_polity: "empty"
- # All of these planet/star names were invented for a combination of interesting phonetics and spelling - I apologize if I've somehow re-invented bad words or concepts.
- PRESCRIPTED_hrmp_system_name: "Semadjo"
- PRESCRIPTED_hrmp_planet_name: "Djo Feh'Mari"
  RT_AGRONOMIST: "Serene Agronomist"
  RT_AGRONOMIST_FEMALE: "Sublime Agronomist"
  RT_HEIR_DESIGNATE: "Heir-Designate"
  RT_HEIR_DESIGNATE_FEMALE: "Heiress-Designate"
+ # All of these planet/star names were invented for a combination of interesting phonetics and spelling - I apologize if I've somehow re-invented bad words or concepts.
+ PRESCRIPTED_hrmp_system_name: "Semadjo"
+ PRESCRIPTED_hrmp_planet_name: "Djo Feh'Mari"
 #  PRESCRIPTED_hrmp_planet_name_first_planet: "Gaaleen"
 #  PRESCRIPTED_hrmp_planet_name_second_planet: "Uurandh"
 #  PRESCRIPTED_hrmp_planet_name_second_planet_first_moon: "Ehlandh"
