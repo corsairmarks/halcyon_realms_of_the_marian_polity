@@ -162,6 +162,7 @@ marian_starting_system_initializer = {
 		flags = { ignore_startup_effect starting_deposit }
 		init_effect = {
 			prevent_anomaly = yes
+			clear_deposits = yes
 			add_deposit = d_rare_crystals_1
 		}
 	}
