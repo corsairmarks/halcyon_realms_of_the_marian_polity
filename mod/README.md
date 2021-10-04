@@ -37,6 +37,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
 ## Changelog
 
 * 1.0.0 Initial version
+* 1.0.1 Properly gate custom empire behind its DLC requirements
 
 ## Source Code
 

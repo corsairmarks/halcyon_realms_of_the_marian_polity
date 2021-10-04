@@ -4,7 +4,7 @@ tags={
 	"Species"
 	"Technologies"
 }
-version="1.0.0"
+version="1.0.1"
 picture="thumbnail.png"
 supported_version="3.1.*"
 remote_file_id="2619454818"
