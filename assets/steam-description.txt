@@ -36,7 +36,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
 
 [h2]Changelog[/h2]
 
-See [url=]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2619454818]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
