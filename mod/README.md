@@ -14,7 +14,7 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: `is_catalytic_empire`.  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
-Built for Stellaris version 3.1.\* "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.\* "Herbert."  Not compatible with achievements.
 
 ## Recommended Companion Mods
 
@@ -38,6 +38,10 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
 
 * 1.0.0 Initial version
 * 1.0.1 Properly gate custom empire behind its DLC requirements
+* 2.0.0 Update for compatibility with Stellaris 3.2 "Herbert"
+    * The Mari are now Aquatic, reflecting the description in their species bio
+    * The Halcyon Realms of the Marian Polity now uses the Aquatic cities
+    * Playing the Halcyon Realms of the Marian Polity now requires the Aquatic Species Pack
 
 ## Source Code
 
