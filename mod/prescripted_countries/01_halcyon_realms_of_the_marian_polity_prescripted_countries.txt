@@ -9,7 +9,6 @@ marian_polity = {
 		adjective = PRESCRIPTED_species_adjective_marian_polity
 		name_list = MOL3
 		trait = trait_aquatic
-		trait = trait_traditional
 		trait = trait_conservational
 		trait = trait_agrarian
 		trait = trait_sedentary

@@ -40,6 +40,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
 * 1.0.1 Properly gate custom empire behind its DLC requirements
 * 2.0.0 Update for compatibility with Stellaris 3.2 "Herbert"
     * The Mari are now Aquatic, reflecting the description in their species bio
+    * To have the 1-point Aquatic trait, the Mari are no longer Traditional (the bonus was only to jobs anyway)
     * The Halcyon Realms of the Marian Polity now uses the Aquatic cities
     * Playing the Halcyon Realms of the Marian Polity now requires the Aquatic Species Pack
 
