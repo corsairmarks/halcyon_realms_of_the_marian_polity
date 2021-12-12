@@ -27,7 +27,7 @@ Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] is not [i]just[/i] for Lithoids - this mod also adds Capacity and (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535]Eldanær Stellar Authority[/url] is another custom empire that I created.  More gameplay mechanics that the Mari, including a special colossus weapon just for Fungoid Necrophages.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535]Eldanær Stellar Authority[/url] is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
 
 [h3]When to Install[/h3]
 
