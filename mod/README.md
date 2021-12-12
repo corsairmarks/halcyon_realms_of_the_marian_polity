@@ -2,6 +2,8 @@
 
 Despite the title being about my custom empire, this mod exists mostly to offer a new origin: Early Catalytic Processing.  Begin the game with Catalytic Processing as a bonus Civic that cannot be removed.  In addition, you get my light role-play empire (that uses this origin), the Halcyon Realms of the Marian Polity.
 
+Origin: Early Catalytic Processing requires the Plantoid Species Pack.  The custom empire also requires Leviathans (for the portrait) and the Aquatic Species Pack (Aquatic trait and city art).  You can use the origin without these two DLC, only the custom empire will be unavailable.
+
 # Changes
 
 Adds a pre-scripted empire, the Halcyon Realms of the Marian Polity.  They are a peaceful, inward-facing society of agrarian molluscoids.  Yes, everyone has a version of farmer-snails and this one is mine.  The Mari are heavily focused on the production of agricultural products - their mineral-poor homeworld lead them to develop and depend on Catalytic Processing much earlier in their history than other empires.  In order to add this gameplay quirk, this mod adds Origin: Early Catalytic Processing that is used by the Mari but is also available for your own custom empires (except with Mining Guilds/Rockbreakers).
