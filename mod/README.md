@@ -10,6 +10,11 @@ Origin: Early Catalytic Processing adds four "new" Civics that are effectively d
 
 Origin: Early Catalytic Processing automatically adds the Authority-appropriate Early Catalytic Processing civic to relevant empires during galaxy generation/game setup, but imposes a heavy food-to-alloy conversion penalty.  This penalty can be reduced, eliminated, and eventually replaced with an efficiency bonus through special technologies only available to empires with Origin: Early Catalytic Processing.
 
+## Localisation
+
+* English by corsairmarks (author)
+* Japanese by Dryus: [[JP localize patch]Corsair's Custom Empires: Halcyon Realms of the Marian Polity](https://steamcommunity.com/workshop/filedetails/?id=2680360959) (sub-mod)
+
 ## Compatibility
 
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: `is_catalytic_empire`.  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
