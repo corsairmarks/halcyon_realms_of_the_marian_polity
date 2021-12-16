@@ -8,13 +8,3 @@ is_catalytic_empire = {
 		is_early_catalytic_empire = yes
 	}
 }
-
-is_early_catalytic_empire = {
-	has_origin = origin_early_catalytic_processing
-	OR = {
-		has_valid_civic = civic_catalytic_processing_alternate
-		has_valid_civic = civic_corporate_catalytic_processing_alternate
-		has_valid_civic = civic_hive_catalytic_processing_alternate
-		has_valid_civic = civic_machine_catalytic_processing_alternate
-	}
-}
