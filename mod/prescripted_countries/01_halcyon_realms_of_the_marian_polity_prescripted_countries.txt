@@ -70,3 +70,74 @@ marian_polity = {
 	origin = origin_early_catalytic_processing
 	flags = { is_halcyon_realms_of_the_marian_polity }
 }
+
+marian_polity_corp = {
+	playable = has_marian_polity_corp_prerequisites
+	ship_prefix = PRESCRIPTED_hrmp_corp_ship_prefix
+	species = {
+		class = MOL
+		portrait = mol18
+		name = PRESCRIPTED_species_name_marian_polity
+		plural = PRESCRIPTED_species_plural_marian_polity
+		adjective = PRESCRIPTED_species_adjective_marian_polity
+		name_list = MOL3
+		trait = trait_aquatic
+		trait = trait_conservational
+		trait = trait_thrifty
+		trait = trait_sedentary
+		trait = trait_solitary
+	}
+	name = marian_polity_corp
+	adjective = PRESCRIPTED_adjective_marian_polity
+	authority = auth_corporate
+	government = gov_megacorporation
+	advisor_voice_type = l_slick_corp
+	planet_name = PRESCRIPTED_hrmp_planet_name
+	planet_class = pc_ocean
+	system_name = PRESCRIPTED_hrmp_system_name
+	initializer = marian_starting_system_initializer
+	graphical_culture = molluscoid_01
+	city_graphical_culture = aquatic_01
+	empire_flag = {
+		icon = {
+			category = "blocky"
+			file = "flag_blocky_8.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "new_dawn.dds"
+		}
+		colors = {
+			"pink"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = male
+		name = PRESCRIPTED_ruler_name_marian_polity
+		portrait = mol18
+		texture = 4
+		hair = 0
+		clothes = 0
+		ruler_title = RT_AGRONOMIST_CORP
+		ruler_title_female = RT_AGRONOMIST_CORP_FEMALE
+		leader_class = ruler
+		trait = trait_ruler_fertility_preacher
+		trait = trait_ruler_investor
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	room = personality_decadent_hierarchy_room
+	spawn_enabled = no
+	ethic = ethic_authoritarian
+	ethic = ethic_xenophile
+	ethic = ethic_pacifist
+	civics = {
+		civic_corporate_anglers
+		civic_corporate_crafters
+	}
+	origin = origin_early_catalytic_processing
+	flags = { is_halcyon_realms_of_the_marian_polity }
+}

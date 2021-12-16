@@ -3,3 +3,10 @@ has_marian_polity_prerequisites = {
 	has_plantoids = yes # mari: origin
 	has_aquatics = yes # mari: trait, cities
 }
+
+has_marian_polity_corp_prerequisites = {
+	has_marian_polity_prerequisites = yes
+	has_megacorp = yes # mari corp: authority
+	has_humanoids = yes # mari corp: civic
+	# other civic requires aquatics, but that is checked above
+}
