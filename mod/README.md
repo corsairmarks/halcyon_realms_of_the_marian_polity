@@ -2,7 +2,7 @@
 
 Despite the title being about my custom empire, this mod exists mostly to offer a new origin: Early Catalytic Processing.  Begin the game with Catalytic Processing as a bonus Civic that cannot be removed.  In addition, you get my light role-play empire (that uses this origin), the Halcyon Realms of the Marian Polity.
 
-Origin: Early Catalytic Processing requires the Plantoid Species Pack.  The custom empire also requires Leviathans (for the portrait) and the Aquatic Species Pack (Aquatic trait and city art).  You can use the origin without these two DLC, only the custom empire will be unavailable.
+Origin: Early Catalytic Processing requires the Plantoid Species Pack.  The custom empire Halcyon Realms of the Marian Polity also requires Leviathans (for the portrait) and the Aquatic Species Pack (Aquatic trait and city art).  The variant custom empire Prosperous Domains of the Marian Corporation additionally requires MegaCorp and the Humanoid Species Pack.  You can use the origin without any DLC requirements other than the Plantoids Species Pack, however the custom empires will be unavailable.
 
 # Changes
 
@@ -50,6 +50,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
     * To have the 1-point Aquatic trait, the Mari are no longer Traditional (the bonus was only to jobs anyway)
     * The Halcyon Realms of the Marian Polity now uses the Aquatic cities
     * Playing the Halcyon Realms of the Marian Polity now requires the Aquatic Species Pack
+* 2.1.0 Add a megacorp variant of the Mari: the Prosperous Domains of the Marian Corporation
 
 ## Source Code
 
