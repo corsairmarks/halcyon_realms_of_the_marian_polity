@@ -15,7 +15,7 @@ tech_catalytic_processing_efficiency_1 = {
 			is_early_catalytic_empire = no
 		}
 		modifier = {
-			factor = 1.25
+			factor = value:tech_weight_likelihood
 			research_leader = {
 				area = society
 				has_trait = leader_trait_expertise_biology
@@ -50,7 +50,7 @@ tech_catalytic_processing_efficiency_2 = {
 			is_early_catalytic_empire = no
 		}
 		modifier = {
-			factor = 1.25
+			factor = value:tech_weight_likelihood
 			research_leader = {
 				area = society
 				has_trait = leader_trait_expertise_biology
@@ -85,7 +85,7 @@ tech_catalytic_processing_efficiency_3 = {
 			is_early_catalytic_empire = no
 		}
 		modifier = {
-			factor = 1.25
+			factor = value:tech_weight_likelihood
 			research_leader = {
 				area = society
 				has_trait = leader_trait_expertise_biology
