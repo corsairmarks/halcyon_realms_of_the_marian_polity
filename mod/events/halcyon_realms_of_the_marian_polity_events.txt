@@ -41,12 +41,20 @@ planet_event = {
 	}
 	immediate = {
 		owner = {
-			switch = {
-				trigger = has_authority
-				auth_corporate = { force_add_civic = civic_corporate_catalytic_processing_alternate }
-				auth_hive_mind = { force_add_civic = civic_hive_catalytic_processing_alternate }
-				auth_machine_intelligence = { force_add_civic = civic_machine_catalytic_processing_alternate }
-				default = { force_add_civic = civic_catalytic_processing_alternate }
+			if ={
+				limit = { is_megacorp = yes }
+				force_add_civic = civic_corporate_catalytic_processing_alternate
+			}
+			else_if = {
+				limit = { is_hive_empire = yes }
+				force_add_civic = civic_hive_catalytic_processing_alternate
+			}
+			else_if = {
+				limit = { is_machine_empire = yes }
+				force_add_civic = civic_machine_catalytic_processing_alternate
+			}
+			else = {
+				force_add_civic = civic_catalytic_processing_alternate
 			}
 		}
 	}
