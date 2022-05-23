@@ -18,7 +18,7 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 [h2]Compatibility[/h2]
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: [b]is_catalytic_empire[/b].  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
-Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
+Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
 
 [h2]Recommended Companion Mods[/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] is not [i]just[/i] for Lithoids - this mod also adds Capacity and (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
