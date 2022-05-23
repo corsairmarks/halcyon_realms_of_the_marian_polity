@@ -7,18 +7,11 @@ origin_early_catalytic_processing = {
 	possible = {
 		civics = {
 			NOR = {
-				text = civic_tooltip_not_catalytic_processing_tooltip
 				value = civic_catalytic_processing
 				value = civic_corporate_catalytic_processing
 				value = civic_hive_catalytic_processing
 				value = civic_machine_catalytic_processing
-			}
-			NOT = {
-				text = civic_tooltip_not_mining_guilds_tooltip
 				value = civic_mining_guilds
-			}
-			NOT = {
-				text = civic_tooltip_not_machine_rockbreakers_tooltip
 				value = civic_machine_rockbreakers
 			}
 		}
