@@ -14,7 +14,7 @@ marian_polity = {
 		trait = trait_sedentary
 		trait = trait_solitary
 	}
-	name = marian_polity
+	name = EMPIRE_DESIGN_marian_polity
 	adjective = PRESCRIPTED_adjective_marian_polity
 	authority = auth_imperial
 	government = gov_irenic_monarchy
@@ -87,7 +87,7 @@ marian_polity_corp = {
 		trait = trait_sedentary
 		trait = trait_solitary
 	}
-	name = marian_polity_corp
+	name = EMPIRE_DESIGN_marian_polity_corp
 	adjective = PRESCRIPTED_adjective_marian_polity
 	authority = auth_corporate
 	government = gov_megacorporation
