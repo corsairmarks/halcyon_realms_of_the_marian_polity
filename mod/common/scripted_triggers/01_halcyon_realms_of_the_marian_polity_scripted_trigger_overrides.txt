@@ -1,5 +1,6 @@
 # override is_catalytic_empire to support my duplicated civics
 is_catalytic_empire = {
+	optimize_memory
 	OR = {
 		has_valid_civic = civic_catalytic_processing
 		has_valid_civic = civic_corporate_catalytic_processing

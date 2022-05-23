@@ -1,10 +1,12 @@
 has_marian_polity_prerequisites = {
+	optimize_memory
 	has_leviathans = yes # mari: portrait
 	has_plantoids = yes # mari: origin
 	has_aquatics = yes # mari: trait, cities
 }
 
 has_marian_polity_corp_prerequisites = {
+	optimize_memory
 	has_marian_polity_prerequisites = yes
 	has_megacorp = yes # mari corp: authority
 	has_humanoids = yes # mari corp: civic
@@ -12,6 +14,7 @@ has_marian_polity_corp_prerequisites = {
 }
 
 is_early_catalytic_empire = {
+	optimize_memory
 	has_origin = origin_early_catalytic_processing
 	OR = {
 		has_valid_civic = civic_catalytic_processing_alternate
