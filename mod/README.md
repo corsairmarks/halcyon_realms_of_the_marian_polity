@@ -21,11 +21,11 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: `is_catalytic_empire`.  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
-Built for Stellaris version 3.4 "Libra."  Not compatible with achievements.
+Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
 ## Recommended Companion Mods
 
-["Agrarian" Idyll for Lithoids](https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821) is not _just_ for Lithoids - this mod also adds Capacity and (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
+["Agrarian" Idyll for Lithoids](https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821) is not _just_ for Lithoids - this mod also adds (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
 
 [Eldanær Stellar Authority](https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535) is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
 
@@ -38,7 +38,7 @@ This mod should be added before starting a new game, and should not be removed f
 This mod overwrites one built-in Stellaris trigger in order to make empires with the new origin and duplicated civics count as "catalytic empires."  Expect to see one error in your error.log similar to this:
 
 ```
-[15:38:58][game_singleobjectdatabase.h:147]: Object with key: is_catalytic_empire already exists, using the one at  file: common/scripted_triggers/01_halcyon_realms_of_the_marian_polity_scripted_trigger_overrides.txt line: 2
+[15:38:58][game_singleobjectdatabase.h:165]: Object with key: is_catalytic_empire already exists, using the one at  file: common/scripted_triggers/01_halcyon_realms_of_the_marian_polity_scripted_trigger_overrides.txt line: 2
 ```
 
 ## Changelog
@@ -53,6 +53,9 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
 * 2.1.0 Add a megacorp variant of the Mari: the Prosperous Domains of the Marian Corporation
 * 3.0.0 Update for compatibility with Stellaris 3.3 "Libra" - no functionality changes
 * 4.0.0 Update for compatibility with Stellaris 3.4 "Cepheus" - no functionality changes
+* 5.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
+    * Adjust prescripted empires to account for trait price increase for Aquatic (swap Solitary for Unruly)
+    * Include the Mindful trait for removal in the custom leader scripting
 
 ## Source Code
 

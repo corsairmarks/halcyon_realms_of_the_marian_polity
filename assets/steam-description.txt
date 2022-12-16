@@ -18,10 +18,10 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 [h2]Compatibility[/h2]
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: [b]is_catalytic_empire[/b].  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
-Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
+Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
 [h2]Recommended Companion Mods[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] is not [i]just[/i] for Lithoids - this mod also adds Capacity and (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] is not [i]just[/i] for Lithoids - this mod also adds (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535]Eldanær Stellar Authority[/url] is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
 
@@ -31,7 +31,7 @@ This mod should be added before starting a new game, and should not be removed f
 [h2]Known Issues[/h2]
 This mod overwrites one built-in Stellaris trigger in order to make empires with the new origin and duplicated civics count as "catalytic empires."  Expect to see one error in your error.log similar to this:
 [code]
-[15:38:58][game_singleobjectdatabase.h:147]: Object with key: is_catalytic_empire already exists, using the one at  file: common/scripted_triggers/01_halcyon_realms_of_the_marian_polity_scripted_trigger_overrides.txt line: 2
+[15:38:58][game_singleobjectdatabase.h:165]: Object with key: is_catalytic_empire already exists, using the one at  file: common/scripted_triggers/01_halcyon_realms_of_the_marian_polity_scripted_trigger_overrides.txt line: 2
 [/code]
 [h2]Changelog[/h2]
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2619454818]Change Notes[/url]
@@ -39,4 +39,4 @@ See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2619454818
 [h2]Source Code[/h2]
 Hosted on [url=https://github.com/corsairmarks/halcyon_realms_of_the_marian_polity]GitHub[/url]
 
-[url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
+[url=https://discord.gg/2qjkAF8DY7][img]https://i.imgur.com/4Und3QN.png[/img][/url]
