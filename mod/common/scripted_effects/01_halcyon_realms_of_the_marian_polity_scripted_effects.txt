@@ -39,6 +39,7 @@ hrmp_remove_scientist_randomized_positive_traits = {
 	optimize_memory
 	if = {
 		limit = { leader_class = scientist }
+		remove_trait = leader_trait_mindful
 		remove_trait = leader_trait_meticulous
 		remove_trait = leader_trait_spark_of_genius
 		remove_trait = leader_trait_carefree
