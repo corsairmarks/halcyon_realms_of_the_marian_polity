@@ -12,7 +12,7 @@ marian_polity = {
 		trait = trait_conservational
 		trait = trait_agrarian
 		trait = trait_sedentary
-		trait = trait_solitary
+		trait = trait_unruly
 	}
 	name = EMPIRE_DESIGN_marian_polity
 	adjective = PRESCRIPTED_adjective_marian_polity
@@ -85,7 +85,7 @@ marian_polity_corp = {
 		trait = trait_conservational
 		trait = trait_thrifty
 		trait = trait_sedentary
-		trait = trait_solitary
+		trait = trait_unruly
 	}
 	name = EMPIRE_DESIGN_marian_polity_corp
 	adjective = PRESCRIPTED_adjective_marian_polity
