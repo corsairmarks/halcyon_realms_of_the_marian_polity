@@ -2,8 +2,8 @@
 
 # fired during empire initialization when starting a new game
 # needs to fire before empire_init_capital_planet so that the default initialization will properly account for Catalytic Processing
-# THIS = planet
-# FROM = species, founder
+# this = planet
+# from = species, founder
 empire_init_capital_planet = {
 	events = {
 		marian_polity.2

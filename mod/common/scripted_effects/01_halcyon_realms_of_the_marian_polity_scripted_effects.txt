@@ -1,4 +1,4 @@
-# THIS should be a leader
+# this should be a leader
 # removes generic leader traits that can be randomly assigned
 hrmp_remove_generic_randomized_positive_traits = {
 	optimize_memory
@@ -9,7 +9,7 @@ hrmp_remove_generic_randomized_positive_traits = {
 	remove_trait = leader_trait_newboot # can't gain from level-up
 }
 
-# THIS should be a leader
+# this should be a leader
 # removes all governor-specific traits that can be randomly assigned
 hrmp_remove_governor_randomized_positive_traits = {
 	optimize_memory
@@ -33,7 +33,7 @@ hrmp_remove_governor_randomized_positive_traits = {
 	}
 }
 
-# THIS should be a leader
+# this should be a leader
 # removes all scientist-specific traits that can be randomly assigned
 hrmp_remove_scientist_randomized_positive_traits = {
 	optimize_memory
