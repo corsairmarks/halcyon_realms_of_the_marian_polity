@@ -56,6 +56,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
 * 5.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
     * Adjust prescripted empires to account for trait price increase for Aquatic (swap Solitary for Unruly)
     * Include the Mindful trait for removal in the custom leader scripting
+* 6.0.0 Add a compatibility trigger for other mods to check whether this one is active, remove old compatibility global flag
 
 ## Source Code
 
