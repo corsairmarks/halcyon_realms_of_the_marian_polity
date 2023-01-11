@@ -20,14 +20,14 @@ In order to implement its changes, this mod overwrites one trigger from base Ste
 
 Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
-[h2]Recommended Companion Mods[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] is not [i]just[/i] for Lithoids - this mod also adds (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535]Eldanær Stellar Authority[/url] is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
-
 [h3]When to Install[/h3]
 This mod should be added before starting a new game, and should not be removed from games in progress.  You can technically add it after starting a game, but you'll miss out on all of its effects.  Losing access to the new civics or technologies could cause problems if removed after game start.
 
+[h2]Recommended Companion Mods[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] is not [i]just[/i] for Lithoids - this mod also adds (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535]Eldanær Stellar Authority[/url] is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
+[/list]
 [h2]Known Issues[/h2]
 This mod overwrites one built-in Stellaris trigger in order to make empires with the new origin and duplicated civics count as "catalytic empires."  Expect to see one error in your error.log similar to this:
 [code]

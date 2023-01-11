@@ -21,17 +21,16 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: `is_catalytic_empire`.  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
-Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
-
-## Recommended Companion Mods
-
-["Agrarian" Idyll for Lithoids](https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821) is not _just_ for Lithoids - this mod also adds (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
-
-[Eldanær Stellar Authority](https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535) is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
-
 ### When to Install
 
 This mod should be added before starting a new game, and should not be removed from games in progress.  You can technically add it after starting a game, but you'll miss out on all of its effects.  Losing access to the new civics or technologies could cause problems if removed after game start.
+
+Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
+
+### Recommended Companion Mods
+
+* ["Agrarian" Idyll for Lithoids](https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821) is not _just_ for Lithoids - this mod also adds (partial) Building Slots to Agrarian Idyll empires for their rural districts (mining/generator/agriculture), such as the Halcyon Realms of the Marian Polity.  That means you can obtain building slots while avoiding City districts, as the role-play for Agrarian Idyll heavily implies.
+* [Eldanær Stellar Authority](https://steamcommunity.com/sharedfiles/filedetails/?id=2496360535) is another custom empire that I created.  More gameplay mechanics than the Mari, including a special colossus weapon just for Fungoid Necrophages.
 
 ## Known Issues
 
