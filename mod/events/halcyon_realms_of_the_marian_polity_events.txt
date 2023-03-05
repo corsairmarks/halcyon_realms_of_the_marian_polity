@@ -125,31 +125,7 @@ country_event = {
 	id = marian_polity.5
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {
-		has_origin = origin_early_catalytic_processing
-		OR = {
-			AND = {
-				has_civic = civic_corporate_catalytic_processing_alternate
-				is_megacorp = no
-			}
-			AND = {
-				has_civic = civic_hive_catalytic_processing_alternate
-				is_hive_empire = no
-			}
-			AND = {
-				has_civic = civic_machine_catalytic_processing_alternate
-				is_machine_empire = no
-			}
-			AND = {
-				has_civic = civic_catalytic_processing_alternate
-				OR = {
-					is_megacorp = yes
-					is_hive_empire = yes
-					is_machine_empire = yes
-				}
-			}
-		}
-	}
+	trigger = { has_origin = origin_early_catalytic_processing }
 	immediate = {
 		# remove any early catalytic processing civics
 		if = {
