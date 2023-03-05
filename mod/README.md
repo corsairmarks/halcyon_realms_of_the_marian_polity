@@ -56,6 +56,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
     * Adjust prescripted empires to account for trait price increase for Aquatic (swap Solitary for Unruly)
     * Include the Mindful trait for removal in the custom leader scripting
 * 6.0.0 Add a compatibility trigger for other mods to check whether this one is active, remove old compatibility global flag
+* 6.1.0 Ensure that non-megacorps with Origin: Early Catalytic Processing can reform into megacorps, and vice-versa
 
 ## Source Code
 
