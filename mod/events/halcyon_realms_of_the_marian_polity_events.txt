@@ -125,40 +125,77 @@ country_event = {
 	id = marian_polity.5
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = { has_origin = origin_early_catalytic_processing }
+	trigger = {
+		has_origin = origin_early_catalytic_processing
+		NOT = { has_country_flag = origin_early_catalytic_processing_bonus_civic_adjustment_in_progress }
+	}
 	immediate = {
+		# set flag to avoid re-firing the on_action - adding/removing civics is a government change and causes infinite events and thus stack overflow
+		set_country_flag = origin_early_catalytic_processing_bonus_civic_adjustment_in_progress
 		# remove any early catalytic processing civics
 		if = {
-			limit = { has_civic = civic_corporate_catalytic_processing_alternate }
+			limit = {
+				is_megacorp = no
+				has_civic = civic_corporate_catalytic_processing_alternate
+			}
 			force_remove_civic = civic_corporate_catalytic_processing_alternate
 		}
 		if = {
-			limit = { has_civic = civic_hive_catalytic_processing_alternate }
+			limit = {
+				is_hive_empire = no
+				has_civic = civic_hive_catalytic_processing_alternate
+			}
 			force_remove_civic = civic_hive_catalytic_processing_alternate
 		}
 		if = {
-			limit = { has_civic = civic_machine_catalytic_processing_alternate }
+			limit = {
+				is_machine_empire = no
+				has_civic = civic_machine_catalytic_processing_alternate
+			}
 			force_remove_civic = civic_machine_catalytic_processing_alternate
 		}
 		if = {
-			limit = { has_civic = civic_catalytic_processing_alternate }
+			limit = {
+				OR = {
+					is_megacorp = yes
+					is_hive_empire = yes
+					is_machine_empire = yes
+				}
+				has_civic = civic_catalytic_processing_alternate
+			}
 			force_remove_civic = civic_catalytic_processing_alternate
 		}
 		# add back the authority-appropriate civic
 		if ={
-			limit = { is_megacorp = yes }
+			limit = {
+				is_megacorp = yes
+				NOT = { has_civic = civic_corporate_catalytic_processing_alternate }
+			}
 			force_add_civic = civic_corporate_catalytic_processing_alternate
 		}
 		else_if = {
-			limit = { is_hive_empire = yes }
+			limit = {
+				is_hive_empire = yes
+				NOT = { has_civic = civic_hive_catalytic_processing_alternate }
+			}
 			force_add_civic = civic_hive_catalytic_processing_alternate
 		}
 		else_if = {
-			limit = { is_machine_empire = yes }
+			limit = {
+				is_machine_empire = yes
+				NOT = { has_civic = civic_machine_catalytic_processing_alternate }
+			}
 			force_add_civic = civic_machine_catalytic_processing_alternate
 		}
-		else = {
+		else_if = {
+			limit = {
+				NOT = { has_civic = civic_catalytic_processing_alternate }
+				is_megacorp = no
+				is_hive_empire = no
+				is_machine_empire = no
+			}
 			force_add_civic = civic_catalytic_processing_alternate
 		}
+		remove_country_flag = origin_early_catalytic_processing_bonus_civic_adjustment_in_progress
 	}
 }
