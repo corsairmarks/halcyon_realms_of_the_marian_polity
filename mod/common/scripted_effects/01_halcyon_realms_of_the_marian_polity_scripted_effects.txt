@@ -61,6 +61,7 @@ hrmp_remove_scientist_randomized_positive_traits = {
 		remove_trait = leader_trait_expertise_biology
 		remove_trait = leader_trait_expertise_military_theory
 		remove_trait = leader_trait_expertise_psionics
+		remove_trait = leader_trait_expertise_archaeostudies
 		remove_trait = leader_trait_cataloger
 	}
 }

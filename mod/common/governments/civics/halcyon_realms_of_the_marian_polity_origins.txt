@@ -18,7 +18,5 @@ origin_early_catalytic_processing = {
 	}
 	description = origin_early_catalytic_processing_effects
 	advanced_start = no
-	random_weight = {
-		base = 5
-	}
+	random_weight = { base = 5 }
 }

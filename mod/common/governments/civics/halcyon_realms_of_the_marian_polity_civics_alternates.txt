@@ -22,6 +22,7 @@ civic_catalytic_processing_alternate = {
 		country_government_civic_points_add = 1
 	}
 	random_weight = { base = 0 }
+	ai_weight = { base = 0 } # Too dangerous to switch this mid-game
 }
 
 civic_corporate_catalytic_processing_alternate = {
@@ -46,6 +47,7 @@ civic_corporate_catalytic_processing_alternate = {
 		country_government_civic_points_add = 1
 	}
 	random_weight = { base = 0 }
+	ai_weight = { base = 0 } # Too dangerous to switch this mid-game
 }
 
 civic_hive_catalytic_processing_alternate = {
@@ -72,6 +74,7 @@ civic_hive_catalytic_processing_alternate = {
 		country_government_civic_points_add = 1
 	}
 	random_weight = { base = 0 }
+	ai_weight = { base = 0 } # Too dangerous to switch this mid-game
 }
 
 civic_machine_catalytic_processing_alternate = {
@@ -96,4 +99,5 @@ civic_machine_catalytic_processing_alternate = {
 		country_government_civic_points_add = 1
 	}
 	random_weight = { base = 0 }
+	ai_weight = { base = 0 } # Too dangerous to switch this mid-game
 }
