@@ -21,11 +21,11 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: `is_catalytic_empire`.  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
+Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
+
 ### When to Install
 
 This mod should be added before starting a new game, and should not be removed from games in progress.  You can technically add it after starting a game, but you'll miss out on all of its effects.  Losing access to the new civics or technologies could cause problems if removed after game start.
-
-Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
 ### Recommended Companion Mods
 
@@ -57,6 +57,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
     * Include the Mindful trait for removal in the custom leader scripting
 * 6.0.0 Add a compatibility trigger for other mods to check whether this one is active, remove old compatibility global flag
 * 6.1.0 Ensure that non-megacorps with Origin: Early Catalytic Processing can reform into megacorps, and vice-versa
+* 7.0.0 Update for Stellaris version 3.7 "Canis Minor" - integrate underlying game changes
 
 ## Source Code
 
