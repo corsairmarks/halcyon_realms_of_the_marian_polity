@@ -14,23 +14,8 @@ tech_catalytic_processing_efficiency_1 = {
 			factor = 0
 			is_early_catalytic_empire = no
 		}
-		modifier = {
-			factor = value:tech_weight_likelihood
-			research_leader = {
-				area = society
-				has_trait = leader_trait_expertise_biology
-			}
-		}
 	}
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = leader_trait_expertise_biology
-			}
-		}
-	}
+	ai_weight = { }
 }
 
 tech_catalytic_processing_efficiency_2 = {
@@ -49,23 +34,8 @@ tech_catalytic_processing_efficiency_2 = {
 			factor = 0
 			is_early_catalytic_empire = no
 		}
-		modifier = {
-			factor = value:tech_weight_likelihood
-			research_leader = {
-				area = society
-				has_trait = leader_trait_expertise_biology
-			}
-		}
 	}
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = leader_trait_expertise_biology
-			}
-		}
-	}
+	ai_weight = { }
 }
 
 tech_catalytic_processing_efficiency_3 = {
@@ -84,21 +54,6 @@ tech_catalytic_processing_efficiency_3 = {
 			factor = 0
 			is_early_catalytic_empire = no
 		}
-		modifier = {
-			factor = value:tech_weight_likelihood
-			research_leader = {
-				area = society
-				has_trait = leader_trait_expertise_biology
-			}
-		}
 	}
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = leader_trait_expertise_biology
-			}
-		}
-	}
+	ai_weight = { }
 }
