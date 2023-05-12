@@ -18,7 +18,7 @@ Origin: Early Catalytic Processing automatically adds the Authority-appropriate 
 [h2]Compatibility[/h2]
 In order to implement its changes, this mod overwrites one trigger from base Stellaris: [b]is_catalytic_empire[/b].  This trigger is used in a variety of places to determine Catalytic Technician/Drone job switches and a few other related setup effects.  This mod is not compatible with other mods that want to overwrite this same trigger, but should otherwise place nicely with most mods.
 
-Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
+Built for Stellaris version 3.8 "Gemini."  Not compatible with achievements.
 
 [h3]When to Install[/h3]
 This mod should be added before starting a new game, and should not be removed from games in progress.  You can technically add it after starting a game, but you'll miss out on all of its effects.  Losing access to the new civics or technologies could cause problems if removed after game start.
