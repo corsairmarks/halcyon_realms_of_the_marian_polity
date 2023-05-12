@@ -52,9 +52,8 @@ marian_polity = {
 		heir_title = RT_HEIR_DESIGNATE
 		ruler_title_female = RT_AGRONOMIST_FEMALE
 		heir_title_female = RT_HEIR_DESIGNATE_FEMALE
-		leader_class = ruler
-		trait = trait_ruler_fertility_preacher
-		trait = trait_ruler_architectural_sense
+		leader_class = governor
+		trait = trait_ruler_charismatic
 	}
 	spawn_as_fallen = no
 	ignore_portrait_duplication = no
@@ -64,8 +63,8 @@ marian_polity = {
 	ethic = ethic_xenophobe
 	ethic = ethic_pacifist
 	civics = {
+		civic_anglers
 		civic_agrarian_idyll
-		civic_inwards_perfection
 	}
 	origin = origin_early_catalytic_processing
 	flags = { is_halcyon_realms_of_the_marian_polity }
@@ -123,9 +122,8 @@ marian_polity_corp = {
 		clothes = 0
 		ruler_title = RT_AGRONOMIST_CORP
 		ruler_title_female = RT_AGRONOMIST_CORP_FEMALE
-		leader_class = ruler
-		trait = trait_ruler_fertility_preacher
-		trait = trait_ruler_investor
+		leader_class = governor
+		trait = trait_ruler_charismatic
 	}
 	spawn_as_fallen = no
 	ignore_portrait_duplication = no
