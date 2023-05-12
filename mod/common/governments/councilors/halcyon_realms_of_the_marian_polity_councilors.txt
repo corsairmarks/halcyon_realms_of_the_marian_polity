@@ -1,0 +1,19 @@
+# duplicates councilor_catalytic_processing
+councilor_catalytic_processing_alternate = {
+	leader_class = { scientist }
+	is_leader_possible = { leader_class = scientist }
+	civic = civic_catalytic_processing_alternate
+	modifier = {
+		planet_farmers_food_produces_mult = 0.05
+	}
+}
+
+# duplicates councilor_corporate_catalytic_processing
+councilor_corporate_catalytic_processing_alternate = {
+	leader_class = { scientist }
+	is_leader_possible = { leader_class = scientist }
+	civic = civic_corporate_catalytic_processing_alternate
+	modifier = {
+		planet_metallurgists_upkeep_mult = -0.02
+	}
+}

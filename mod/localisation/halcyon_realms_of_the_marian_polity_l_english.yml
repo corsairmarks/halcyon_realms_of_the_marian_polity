@@ -31,6 +31,12 @@
  civic_hive_catalytic_processing_alternate_desc: "$civic_hive_catalytic_processing_desc$"
  civic_machine_catalytic_processing_alternate: "Early $civic_machine_catalytic_processing$"
  civic_machine_catalytic_processing_alternate_desc: "$civic_machine_catalytic_processing_desc$"
+ councilor_catalytic_processing_alternate: "$councilor_catalytic_processing$"
+ councilor_catalytic_processing_alternate_female: "$councilor_catalytic_processing_female$"
+ councilor_catalytic_processing_alternate_desc: "$councilor_catalytic_processing_desc$"
+ councilor_corporate_catalytic_processing_alternate: "$councilor_corporate_catalytic_processing$"
+ councilor_corporate_catalytic_processing_alternate_female: "$councilor_corporate_catalytic_processing_female$"
+ councilor_corporate_catalytic_processing_alternate_desc: "$councilor_corporate_catalytic_processing_desc$"
  # prescripted empire
  PRESCRIPTED_adjective_marian_polity: "Marian"
  PRESCRIPTED_hrmp_ship_prefix: "MPS"

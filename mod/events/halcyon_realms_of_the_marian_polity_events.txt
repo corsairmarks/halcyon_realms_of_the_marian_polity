@@ -128,6 +128,27 @@ country_event = {
 		NOT = { has_country_flag = origin_early_catalytic_processing_bonus_civic_adjustment_in_progress }
 	}
 	immediate = {
+		if = {
+			limit = {
+				any_owned_leader = {
+					is_councilor = yes
+					OR = {
+						is_councilor_type = councilor_catalytic_processing_alternate
+						is_councilor_type = councilor_corporate_catalytic_processing_alternate
+					}
+				}
+			}
+			random_owned_leader = {
+				limit = {
+					is_councilor = yes
+					OR = {
+						is_councilor_type = councilor_catalytic_processing_alternate
+						is_councilor_type = councilor_corporate_catalytic_processing_alternate
+					}
+				}
+				save_event_target_as = councilor_catalytic_processing
+			}
+		}
 		# set flag to avoid re-firing the on_action - adding/removing civics is a government change and causes infinite events and thus stack overflow
 		set_country_flag = origin_early_catalytic_processing_bonus_civic_adjustment_in_progress
 		# remove any early catalytic processing civics
@@ -170,6 +191,10 @@ country_event = {
 				NOT = { has_civic = civic_corporate_catalytic_processing_alternate }
 			}
 			force_add_civic = civic_corporate_catalytic_processing_alternate
+			if = {
+				limit = { exists = event_target:councilor_catalytic_processing }
+				event_target:councilor_catalytic_processing = { set_council_position = councilor_corporate_catalytic_processing_alternate }
+			}
 		}
 		else_if = {
 			limit = {
@@ -193,6 +218,10 @@ country_event = {
 				is_machine_empire = no
 			}
 			force_add_civic = civic_catalytic_processing_alternate
+			if = {
+				limit = { exists = event_target:councilor_catalytic_processing }
+				event_target:councilor_catalytic_processing = { set_council_position = councilor_catalytic_processing_alternate }
+			}
 		}
 		remove_country_flag = origin_early_catalytic_processing_bonus_civic_adjustment_in_progress
 	}
