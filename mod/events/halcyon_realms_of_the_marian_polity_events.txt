@@ -5,16 +5,10 @@ country_event = {
 	id = marian_polity.1
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {
-		is_early_catalytic_empire = yes
-	}
+	trigger = { is_early_catalytic_empire = yes }
 	immediate = {
 		add_modifier = { modifier = low_efficiency_catalytic_processing }
-		capital_scope = {
-			add_modifier = {
-				modifier = mineral_poor
-			}
-		}
+		capital_scope = { add_modifier = { modifier = mineral_poor } }
 	}
 }
 
@@ -23,9 +17,8 @@ planet_event = {
 	id = marian_polity.2
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {
-		owner = { has_origin = origin_early_catalytic_processing }
-	}
+	pre_triggers = { has_owner = yes }
+	trigger = { owner = { has_origin = origin_early_catalytic_processing } }
 	immediate = {
 		owner = {
 			if ={
@@ -82,40 +75,45 @@ country_event = {
 	id = marian_polity.4
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {
-		has_country_flag = is_halcyon_realms_of_the_marian_polity
-	}
+	trigger = { has_country_flag = is_halcyon_realms_of_the_marian_polity }
 	immediate = {
-		capital_scope.sector = {
-			set_name = START_hrmp_sector_name
+		ruler = {
+			if = {
+				limit = { leader_class = governor }
+				# add second flavor trait to starting ruler
+				add_trait_no_notify = trait_ruler_fertility_preacher
+			}
+			if = {
+				limit = {
+					owner = {
+						OR = {
+							has_authority = auth_imperial
+							has_valid_civic = civic_aristocratic_elite
+						}
+					}
+				}
+				change_background_job = noble
+			}
+		}
+		capital_scope = {
+			sector = { set_name = START_hrmp_sector_name }
 			leader = {
 				if = {
 					limit = { NOT = { has_trait = leader_trait_agrarian_upbringing } }
-					hrmp_remove_generic_randomized_positive_traits = yes
-					hrmp_remove_governor_randomized_positive_traits = yes
-					add_trait = leader_trait_agrarian_upbringing
+					remove_all_traits = yes
+					add_trait_no_notify = leader_trait_agrarian_upbringing
 				}
 			}
 		}
 		random_owned_leader = {
 			limit = {
 				leader_class = scientist
-				is_researching_area = society
-				NOT = { has_trait = leader_trait_expertise_biology }
-			}
-			hrmp_remove_generic_randomized_positive_traits = yes
-			hrmp_remove_scientist_randomized_positive_traits = yes
-			add_trait = leader_trait_expertise_biology
-		}
-		random_owned_leader = {
-			limit = {
-				leader_class = scientist
-				is_researching_area = engineering
+				is_councilor = yes
+				is_ruler = no
 				NOT = { has_trait = leader_trait_expertise_materials }
 			}
-			hrmp_remove_generic_randomized_positive_traits = yes
-			hrmp_remove_scientist_randomized_positive_traits = yes
-			add_trait = leader_trait_expertise_materials
+			remove_all_traits = yes
+			add_trait_no_notify = leader_trait_expertise_materials
 		}
 	}
 }
