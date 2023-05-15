@@ -63,6 +63,7 @@ This mod overwrites one built-in Stellaris trigger in order to make empires with
     * Add councilor positions for Early Catalytic Processing (they duplicate the councilor positions for regular Catalytic Processing)
     * The Halcyon Realms of the Marian Polity has traded Civic: Inward Perfection for Civic: Anglers - they still view the greater galaxy with suspicion, but are no longer focused exclusively inward
     * Integrate underlying changes for technologies
+* 8.0.1 Early Catalytic Processing empires don't get to unlock an extra councilor early
 
 ## Source Code
 
