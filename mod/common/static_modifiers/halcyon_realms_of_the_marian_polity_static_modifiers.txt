@@ -1,14 +1,17 @@
 low_efficiency_catalytic_processing = {
 	icon = gfx/interface/icons/modifiers/mod_alloys_upkeep_mult.dds
 	planet_metallurgists_food_upkeep_mult = 0.5
+	planet_artisans_food_upkeep_mult = 0.5
 }
 
 moderate_efficiency_catalytic_processing = {
 	icon = gfx/interface/icons/modifiers/mod_alloys_upkeep_mult.dds
 	planet_metallurgists_food_upkeep_mult = 0.25
+	planet_artisans_food_upkeep_mult = 0.25
 }
 
 high_efficiency_catalytic_processing = {
 	icon = gfx/interface/icons/modifiers/mod_alloys_upkeep_mult.dds
 	planet_metallurgists_food_upkeep_mult = -0.25
+	planet_artisans_food_upkeep_mult = -0.25
 }

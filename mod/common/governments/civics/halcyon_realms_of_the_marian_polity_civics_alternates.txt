@@ -19,6 +19,8 @@ civic_catalytic_processing_alternate = {
 		}
 	}
 	modifier = {
+		planet_artisans_food_upkeep_add = 2
+		planet_artisans_minerals_upkeep_add = -2
 		country_government_civic_points_add = 1
 	}
 	random_weight = { base = 0 }
@@ -96,6 +98,8 @@ civic_machine_catalytic_processing_alternate = {
 		}
 	}
 	modifier = {
+		planet_artisans_food_upkeep_add = 2
+		planet_artisans_minerals_upkeep_add = -2
 		country_government_civic_points_add = 1
 	}
 	random_weight = { base = 0 }
