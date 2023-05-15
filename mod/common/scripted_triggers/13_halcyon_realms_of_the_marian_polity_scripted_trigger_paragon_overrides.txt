@@ -1,0 +1,19 @@
+# Modified: early catalytic empires need more than 3 civics to see the extra slot
+# this = pop
+country_has_extra_council_position = {
+	if = {
+		limit = {
+			OR = {
+				has_civic = civic_galactic_sovereign
+				has_civic = civic_galactic_sovereign_megacorp
+				has_civic = civic_psionic_sovereign
+				is_early_catalytic_empire = yes
+			}
+		}
+		civics_count > 3
+	}
+	else = {
+		civics_count > 2
+	}
+	is_gestalt = no
+}
