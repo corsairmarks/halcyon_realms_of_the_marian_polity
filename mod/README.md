@@ -34,10 +34,11 @@ This mod should be added before starting a new game, and should not be removed f
 
 ## Known Issues
 
-This mod overwrites one built-in Stellaris trigger in order to make empires with the new origin and duplicated civics count as "catalytic empires."  Expect to see one error in your error.log similar to this:
+This mod overwrites two built-in Stellaris triggers in order to make empires with the new origin and duplicated civics count as "catalytic empires" and avoid showing the 6th council seat before having enough civics.  Expect to see two errors in your error.log similar to these:
 
 ```
-[15:38:58][game_singleobjectdatabase.h:165]: Object with key: is_catalytic_empire already exists, using the one at  file: common/scripted_triggers/01_halcyon_realms_of_the_marian_polity_scripted_trigger_overrides.txt line: 2
+[02:24:05][game_singleobjectdatabase.h:153]: Object with key: is_catalytic_empire already exists, using the one at  file: common/scripted_triggers/10_halcyon_realms_of_the_marian_polity_scripted_trigger_overrides.txt line: 2
+[02:22:46][game_singleobjectdatabase.h:153]: Object with key: country_has_extra_council_position already exists, using the one at  file: common/scripted_triggers/13_halcyon_realms_of_the_marian_polity_scripted_trigger_paragon_overrides.txt line: 3
 ```
 
 ## Changelog
